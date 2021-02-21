@@ -1,0 +1,35 @@
+beer = 99
+
+
+
+  while (beer > 1 )
+    puts "#{beer} bottles of beer on the wall,"
+    puts "#{beer} bottles of beer."
+    puts "Take one down and pass it around,"
+    beer -=1 
+
+    if (beer == 1)
+      puts "#{beer} bottle of beer on the wall."
+     puts 
+    else
+      puts "#{beer} bottles of beer on the wall."
+      puts
+    end
+
+  end
+
+  if (beer =1)
+      puts "#{beer} bottle of beer on the wall,"
+      puts "#{beer} bottle of beer."
+      puts "Take one down and pass it around,"
+      puts "No more bottles of beer on the wall."
+      puts
+      puts "No more bottles of beer on the wall,"
+      puts "No more bottles of beer."
+      puts "Go to the store and buy some more,"
+      beer = 99
+      puts "#{beer} bootles of beer on the wall."
+      puts
+      
+  end
+      
