@@ -1,7 +1,5 @@
 beer = 99
 
-
-
   while (beer > 1 )
     puts "#{beer} bottles of beer on the wall,"
     puts "#{beer} bottles of beer."
